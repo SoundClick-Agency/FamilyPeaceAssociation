@@ -14908,11 +14908,11 @@ button.et_pb_menu__icon__with_count:after {
 }
 
 .et-pb-arrow-prev:before {
-	content: "4"
+	content: "<"
 }
 
 .et-pb-arrow-next:before {
-	content: "5"
+	content: ">"
 }
 
 .format-gallery .et-pb-arrow-next,
