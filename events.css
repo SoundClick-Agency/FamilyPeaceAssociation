@@ -152,7 +152,7 @@ section .events ul li .details a {
 }
 
 section .events ul li .details a:hover {
-  background-color: #e91e63;
+  background-color: #fedf46;
   color: #fff;
-  border-color: #e91e63;
+  border-color: #fedf46;
 }
