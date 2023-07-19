@@ -35,14 +35,14 @@ body {
 }
 
 section .leftBox .content {
-  color: #262626;
+  color: #20407f;
   background-color: #fedf46;
   padding: 40px;
   transition: 0.5s;
 }
 
 section .leftBox .content:hover {
-  background-color: #e91e63;
+  background-color: #f1f2f5;
 }
 
 section .leftBox .content h1 {
@@ -59,7 +59,7 @@ section .leftBox .content p {
 
 section .events {
   grid-area: event;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #ffffff80;
   box-sizing: border-box;
 }
 
@@ -94,7 +94,10 @@ section .events ul li .time {
   grid-area: time;
   position: relative;
   padding: 8% 40%;
-  background-color: #262626;
+  background-image: url('/images/eventcard.png'); /* Add the URL of your background image here */
+  background-color: #20407f;
+  background-size: cover; /* Make the background image cover the element */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -104,7 +107,7 @@ section .events ul li .time {
 }
 
 section .events ul li:hover .time {
-  background-color: #e91e63;
+  background-color: #fedf46;
 }
 
 section .events ul li .time h2 {
