@@ -35,8 +35,8 @@ body {
 }
 
 section .leftBox .content {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: #262626;
+  background-color: #fedf46;
   padding: 40px;
   transition: 0.5s;
 }
@@ -59,7 +59,7 @@ section .leftBox .content p {
 
 section .events {
   grid-area: event;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
 }
 
