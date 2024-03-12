@@ -141,6 +141,64 @@ section .events ul li .time h2 span {
   font-size: 30px;
 }
 
+
+/* Common styles for all screen sizes */
+/* Common styles for all screen sizes */
+section .events ul li .time {
+  grid-area: time;
+  position: relative;
+  background-image: url(/images/eventcard-blog-1.png);
+  background-size: contain; /* Make the background image fit within the element */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50%; /* Maintain aspect ratio, based on width */
+  background-position: center; /* Center the background image */
+  background-color: transparent; /* Remove any background color */
+}
+
+/* Responsive styles for different screen sizes */
+@media (max-width: 768px) {
+  /* For smaller screens, adjust the padding and image size */
+  section .events ul li .time {
+    padding: 0; /* Remove the padding on smaller screens */
+    height: 200px; /* Set a fixed height to control the size of the image on mobile */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* For medium-sized screens, adjust the padding and image size */
+  section .events ul li .time {
+    padding: 0; /* Remove the padding on medium-sized screens */
+    height: 250px; /* Set a fixed height to control the size of the image on tablets */
+  }
+}
+
+/* Add more media queries as needed for other screen sizes */
+
+
+/* Add more media queries as needed for other screen sizes */
+
+section .events ul li .time2 h2 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 60px;
+  line-height: 30px;
+}
+
+section .events ul li .time2 h2 span {
+  font-size: 30px;
+}
+
+
+
+
+
+
 section .events ul li .details {
   grid-area: detail;
   padding: 20px 20px 32px;
